@@ -1,0 +1,8 @@
+#difficulty span {
+    float: left;
+    clear: both;
+    margin-left: 20%;
+}
+#difficulty {
+    padding: 10px 0px;
+}

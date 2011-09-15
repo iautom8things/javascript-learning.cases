@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Special+Elite&v1' rel='stylesheet' type='text/css'>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <title>Sudoku! Learning Cases - By Manuel Zubieta</title>
+        <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/sudoku.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body onload="">
+        <div id="main" class="clearfix">
+            <div id="header">
+                <h1>SUDOKU!</h1>
+            </div>
+            <div id="board" class="clearfix"></div>
+            <div id="cpanel" class="clearfix">
+                <div id="newgame" class="controls"></div>
+                <div id="difficulty" class="controls">
+                    <span><label for="easy">Easy</label><input type="radio" name="diff" value="10" id="easy" ></span>
+                    <span><label for="medium">Medium</label><input type="radio" name="diff" value="25" id="medium"></span>
+                    <span><label for="hard">Hard</label><input type="radio" name="diff" value="50" id="hard" checked></span> 
+                    
+                </div>
+                <div id="original" class="controls"></div>
+                <div id="lesson1" class="controls"></div>
+                <div id="lesson2" class="controls"></div>
+                <div id="lesson3" class="controls"></div>
+            </div>
+            <div id="text" class="clearfix"></div>
+            <div id="q_and_a" style="display: none;" class="clearfix">
+                <div id="answers">
+                    <div id="q0" class="answers"></div>
+                    <div id="q1" class="answers"></div>
+                    <div id="q2" class="answers"></div>
+                </div>
+                <div id="ans_buttons" class="clearfix">
+                    <div id="a0" class="answers">
+                        <p>Select Answer</p>
+                    </div>
+                    <div id="a1" class="answers">
+                        <p>Select Answer</p>
+                    </div>
+                    <div id="a2" class="answers">
+                        <p>Select Answer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jquery.illuminate.0.7.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/sudoku.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/learning_cases.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/sudoku_LC.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/sudoku_controls.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

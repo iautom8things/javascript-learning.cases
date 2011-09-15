@@ -1,0 +1,68 @@
+#ans_buttons, .answers {width:33%;}
+#answers, #ans_buttons, #q_and_a {width:100%;}
+#body div, #cpanel div , #q_and_a, .answers , #main {
+    float:left;
+    clear:both;
+}
+#ans_buttons div, #answers, .answers , #text, #cpanel, #board {
+    float: left; 
+    clear: none;
+}
+#cpanel {
+    width: 150px;
+    width: 15%;
+}
+.controls, #text, .answers {
+    background-color : #faf;
+    border : 1px solid black;
+    -webkit-border-radius : 8px;
+    -moz-border-radius : 8px;
+    border-radius : 8px;
+}
+.controls {
+    background-color : #fbb;
+}
+#cpanel div {
+    margin-bottom : 10px;
+    width : 150px;
+    width : 95%;
+    border : 1px solid black;
+    -webkit-border-radius : 8px;
+    -moz-border-radius : 8px;
+    border-radius : 8px;
+}
+#board {
+    width: 40%;
+    clear: both;
+}
+.row {
+    width: 100%;
+}
+#main {
+    width: 960px;
+    margin: 0 auto;
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-image: url(../img/bg_lite.png);font-family: 'Special Elite', arial, serif;
+    }
+#header h1{color:#faf;}
+#text {width: 40%;}
+#q_and_a {margin-top: 10px;}
+.code { font-family: 'Inconsolata', arial, serif; font-size: 12px; background-color: white;}
+.op {color: red;}
+.comment {color: gray;}
+.type {color: blue;}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
